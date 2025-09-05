@@ -9,5 +9,7 @@
         public string phone { get; set; } = string.Empty;
         public string password { get; set; } = string.Empty;
         public bool isactive { get; set; }
+        public DateTime DOB { get; set; }
+        public int status { get; set; }
     }
 }
